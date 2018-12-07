@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrashManager : MonoBehaviour {
+public class TrashManager : MissionManager{
     public int emptySpeed;
     public bool autoEmpty = false;
     public bool powerEmpty = false;
@@ -46,7 +46,7 @@ public class TrashManager : MonoBehaviour {
 
 
     }
-    public float GetAccomplishment()
+    public override float GetAccomplishment()
     {
         return 100f / achieveTrash * current_trash;
     }

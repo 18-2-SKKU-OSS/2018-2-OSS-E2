@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CleaningManager : MonoBehaviour
+public class CleaningManager : MissionManager
 {
     public int needTouch = 10;
     public int achieveDust = 20;
@@ -44,7 +44,7 @@ public class CleaningManager : MonoBehaviour
         }
 
     }
-    public float GetAccomplishment()
+    public override float GetAccomplishment()
     {
         return 100f / achieveDust * currentDust;
     }

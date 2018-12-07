@@ -11,9 +11,9 @@ enum StageState
 
 public class StageManager : MonoBehaviour {
     //Managers
-    public CleanDishManager cleanDishManager;
-    public TrashManager trashManager;
-    public CleaningManager cleaningManager;
+    public CleanDishManager obManager1;
+    public TrashManager obManager2;
+    public CleaningManager obManager3;
 
     //normal
     StageState stageState = StageState.PLAY;
@@ -56,9 +56,9 @@ public class StageManager : MonoBehaviour {
             StartCoroutine(TimerUI());
 
             numOfClearMisson = 0;
-            if (cleanDishManager.isMissionClear) numOfClearMisson++;
-            if (trashManager.isMissionClear) numOfClearMisson++;
-            if (cleaningManager.isMissionClear) numOfClearMisson++;
+            if (obManager1.isMissionClear) numOfClearMisson++;
+            if (obManager2.isMissionClear) numOfClearMisson++;
+            if (obManager3.isMissionClear) numOfClearMisson++;
 
             if (numOfClearMisson >= numOfMisson) isStageEnd = true;
             if (currentTime >= limitTime) isStageEnd = true;
@@ -67,9 +67,9 @@ public class StageManager : MonoBehaviour {
         else if(stageState == StageState.PAUSE)
         {
             pauseCanvas.SetActive(true);
-            missionAccomplishment[0].text = cleanDishManager.GetAccomplishment().ToString("N2") + "%";
-            missionAccomplishment[1].text = trashManager.GetAccomplishment().ToString("N2") + "%";
-            missionAccomplishment[2].text = cleaningManager.GetAccomplishment().ToString("N2") + "%";
+            missionAccomplishment[0].text = obManager1.GetAccomplishment().ToString("N2") + "%";
+            missionAccomplishment[1].text = obManager2.GetAccomplishment().ToString("N2") + "%";
+            missionAccomplishment[2].text = obManager3.GetAccomplishment().ToString("N2") + "%";
         }
         //END
         else if (stageState == StageState.END)

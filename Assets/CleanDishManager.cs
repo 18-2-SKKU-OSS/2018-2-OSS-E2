@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CleanDishManager : MonoBehaviour
+public class CleanDishManager : MissionManager
 {
     //for Singleton
     static CleanDishManager instance;
@@ -69,7 +69,7 @@ public class CleanDishManager : MonoBehaviour
         }
     }
 
-    public float GetAccomplishment()
+    public override float GetAccomplishment()
     {
         if(isMissionClear)
         {
