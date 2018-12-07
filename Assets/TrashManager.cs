@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class TrashManager : MissionManager{
@@ -7,6 +8,7 @@ public class TrashManager : MissionManager{
     public bool autoEmpty = false;
     public bool powerEmpty = false;
     public bool isMissionClear = false;
+    public Text MissionName;
     public int achieveTrash = 20;
     public int current_trash = 0;
 
@@ -15,6 +17,7 @@ public class TrashManager : MissionManager{
     // Use this for initialization
     void Start()
     {
+        MissionName.text = "Trash Chips";
         current_trash = 0;
         trashes = GameObject.FindGameObjectsWithTag("Trash");
         achieveTrash = trashes.Length;

@@ -15,6 +15,7 @@ public class CleanDishManager : MissionManager
     bool isTwinkled = false;
     public DishDestination dishDestination;
     public bool isMissionClear = false;
+    public Text MissionName;
 
     //for Skill
     public float speedForCleanDish = 1f;
@@ -22,6 +23,7 @@ public class CleanDishManager : MissionManager
 
     private void Start()
     {
+        MissionName.text = "Clean Dishes";
         //Singleton
         if (instance != null)
         {

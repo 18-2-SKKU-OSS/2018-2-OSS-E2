@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class CleaningManager : MissionManager
@@ -8,12 +9,14 @@ public class CleaningManager : MissionManager
     public int achieveDust = 20;
     static public int currentDust = 0;
     public bool isMissionClear = false;
+    public Text MissionName;
     GameObject[] dusts;
     GameObject[] spiderWebs;
 
     // Use this for initialization
     void Start()
     {
+        MissionName.text = "Clean Dusts and Webs";
         dusts = GameObject.FindGameObjectsWithTag("Dust");
         spiderWebs = GameObject.FindGameObjectsWithTag("SpiderWeb");
         achieveDust = dusts.Length + spiderWebs.Length;

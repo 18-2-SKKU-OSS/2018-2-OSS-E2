@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public abstract class MissionManager : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    public bool isMissionClear;
+    public Text MissionName;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	

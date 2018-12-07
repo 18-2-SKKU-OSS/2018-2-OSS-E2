@@ -11,9 +11,7 @@ enum StageState
 
 public class StageManager : MonoBehaviour {
     //Managers
-    public CleanDishManager obManager1;
-    public TrashManager obManager2;
-    public CleaningManager obManager3;
+    public MissionManager[] MissionManager;
 
     //normal
     StageState stageState = StageState.PLAY;
@@ -40,9 +38,8 @@ public class StageManager : MonoBehaviour {
 
     private void Start()
     {
-        missionName[0].text = "Clean Dishes";
-        missionName[1].text = "Trash Chips";
-        missionName[2].text = "Clean Dusts and Webs";
+        for(int i = 0; i < MissionManager.Length; i++)
+            missionName[i].text = MissionManager[i].MissionName.text;
         StartCoroutine("Timer");
 
     }
@@ -56,9 +53,9 @@ public class StageManager : MonoBehaviour {
             StartCoroutine(TimerUI());
 
             numOfClearMisson = 0;
-            if (obManager1.isMissionClear) numOfClearMisson++;
-            if (obManager2.isMissionClear) numOfClearMisson++;
-            if (obManager3.isMissionClear) numOfClearMisson++;
+            if (MissionManager[1].isMissionClear) numOfClearMisson++;
+            if (MissionManager[2].isMissionClear) numOfClearMisson++;
+            if (MissionManager[3].isMissionClear) numOfClearMisson++;
 
             if (numOfClearMisson >= numOfMisson) isStageEnd = true;
             if (currentTime >= limitTime) isStageEnd = true;
@@ -67,9 +64,9 @@ public class StageManager : MonoBehaviour {
         else if(stageState == StageState.PAUSE)
         {
             pauseCanvas.SetActive(true);
-            missionAccomplishment[0].text = obManager1.GetAccomplishment().ToString("N2") + "%";
-            missionAccomplishment[1].text = obManager2.GetAccomplishment().ToString("N2") + "%";
-            missionAccomplishment[2].text = obManager3.GetAccomplishment().ToString("N2") + "%";
+            missionAccomplishment[0].text = MissionManager[1].GetAccomplishment().ToString("N2") + "%";
+            missionAccomplishment[1].text = MissionManager[2].GetAccomplishment().ToString("N2") + "%";
+            missionAccomplishment[2].text = MissionManager[3].GetAccomplishment().ToString("N2") + "%";
         }
         //END
         else if (stageState == StageState.END)
