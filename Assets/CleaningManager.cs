@@ -8,14 +8,13 @@ public class CleaningManager : MissionManager
     public int needTouch = 10;
     public int achieveDust = 20;
     static public int currentDust = 0;
-    public bool isMissionClear = false;
-    public Text MissionName;
     GameObject[] dusts;
     GameObject[] spiderWebs;
 
     // Use this for initialization
     void Start()
     {
+        isMissionClear = false;
         MissionName.text = "Clean Dusts and Webs";
         dusts = GameObject.FindGameObjectsWithTag("Dust");
         spiderWebs = GameObject.FindGameObjectsWithTag("SpiderWeb");
