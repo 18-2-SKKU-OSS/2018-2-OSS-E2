@@ -53,9 +53,8 @@ public class StageManager : MonoBehaviour {
             StartCoroutine(TimerUI());
 
             numOfClearMisson = 0;
-            if (MissionManager[1].isMissionClear) numOfClearMisson++;
-            if (MissionManager[2].isMissionClear) numOfClearMisson++;
-            if (MissionManager[3].isMissionClear) numOfClearMisson++;
+            for(int i = 0; i < MissionManager.Length; i++)
+                if (MissionManager[i].isMissionClear) numOfClearMisson++;
 
             if (numOfClearMisson >= numOfMisson) isStageEnd = true;
             if (currentTime >= limitTime) isStageEnd = true;
@@ -64,9 +63,9 @@ public class StageManager : MonoBehaviour {
         else if(stageState == StageState.PAUSE)
         {
             pauseCanvas.SetActive(true);
-            missionAccomplishment[0].text = MissionManager[1].GetAccomplishment().ToString("N2") + "%";
-            missionAccomplishment[1].text = MissionManager[2].GetAccomplishment().ToString("N2") + "%";
-            missionAccomplishment[2].text = MissionManager[3].GetAccomplishment().ToString("N2") + "%";
+
+            for (int i = 0; i < MissionManager.Length; i++)
+                missionAccomplishment[i].text = MissionManager[i].GetAccomplishment().ToString("N2") + "%";
         }
         //END
         else if (stageState == StageState.END)
