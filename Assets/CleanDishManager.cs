@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CleanDishManager : MonoBehaviour
+public class CleanDishManager : MissionManager
 {
     //for Singleton
     static CleanDishManager instance;
@@ -14,7 +14,6 @@ public class CleanDishManager : MonoBehaviour
     public static int numOfDish = 6;
     bool isTwinkled = false;
     public DishDestination dishDestination;
-    public bool isMissionClear = false;
 
     //for Skill
     public float speedForCleanDish = 1f;
@@ -22,6 +21,8 @@ public class CleanDishManager : MonoBehaviour
 
     private void Start()
     {
+        isMissionClear = false;
+        MissionName.text = "Clean Dishes";
         //Singleton
         if (instance != null)
         {
@@ -69,7 +70,7 @@ public class CleanDishManager : MonoBehaviour
         }
     }
 
-    public float GetAccomplishment()
+    public override float GetAccomplishment()
     {
         if(isMissionClear)
         {

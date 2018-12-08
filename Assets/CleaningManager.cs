@@ -1,19 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
-public class CleaningManager : MonoBehaviour
+public class CleaningManager : MissionManager
 {
     public int needTouch = 10;
     public int achieveDust = 20;
     static public int currentDust = 0;
-    public bool isMissionClear = false;
     GameObject[] dusts;
     GameObject[] spiderWebs;
 
     // Use this for initialization
     void Start()
     {
+        isMissionClear = false;
+        MissionName.text = "Clean Dusts and Webs";
         dusts = GameObject.FindGameObjectsWithTag("Dust");
         spiderWebs = GameObject.FindGameObjectsWithTag("SpiderWeb");
         achieveDust = dusts.Length + spiderWebs.Length;
@@ -44,7 +46,7 @@ public class CleaningManager : MonoBehaviour
         }
 
     }
-    public float GetAccomplishment()
+    public override float GetAccomplishment()
     {
         return 100f / achieveDust * currentDust;
     }
