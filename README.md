@@ -9,7 +9,7 @@
 ### Readme Contents:
 - [How to Play](#how-to-play)
 - [How to Contribute](#how-to-contribute)
-- [Official github page](#official-github-page)
+- [For more Information](#for-more-information)
 
 ### How to Play
 > <img src="https://user-images.githubusercontent.com/43779571/49585335-671ffa80-f9a1-11e8-9d55-1deea12b5b5b.jpg">
@@ -72,3 +72,6 @@ Funitures displayed are monotonous. So make more designs and also change its loc
 
 ### Forked from repository 
 https://github.com/SKKU-VRAR/URGS
+
+### For more Information
+https://18-2-skku-oss.github.io/2018-2-OSS-E2/
