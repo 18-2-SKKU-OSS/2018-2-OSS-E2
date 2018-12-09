@@ -72,3 +72,6 @@ Funitures displayed are monotonous. So make more designs and also change its loc
 
 ### Forked from repository 
 https://github.com/SKKU-VRAR/URGS
+
+### Official github page
+https://18-2-skku-oss.github.io/2018-2-OSS-E2/
