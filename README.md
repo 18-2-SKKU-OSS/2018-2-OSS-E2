@@ -13,7 +13,7 @@ This is a unity game to clean the room.
 
 ### How to Play
 > <img src="https://user-images.githubusercontent.com/43779571/49585335-671ffa80-f9a1-11e8-9d55-1deea12b5b5b.jpg">
-<br>
+
 > Press start button.<br>
 > Press stage button.<br>
 > Press stage 1.
@@ -22,8 +22,8 @@ This is a unity game to clean the room.
 > <img src="https://survios.com/rawdata/content/themes/rawdata/assets/img/vive-userguide-white@2x.png">
 <br>
 
-- TrackPad: up button: move to the other position in the room. (Teleportation)<br>
-  Or you can just move by your foot.<br>
+- Trackpad: up button: move to the other position in the room. (Teleportation)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Or you can just move by your foot.
 - Trigger: grab some objects.
 
 #### Stage 1
@@ -70,5 +70,5 @@ Funitures displayed are monotonous. So make more designs and also change its loc
 
 3. Code refactoring and optimization
 
-### Official github page
+### Forked from repository 
 https://github.com/SKKU-VRAR/URGS
