@@ -4,7 +4,9 @@ From. [성균관대학교 소프트웨어학과 VR/AR 스터디 official github]
 <br>
 ## 우렁각시 게임 (HOMEWORK)
 ### Introduction
-This is a unity game to clean the room.
+한국의 민담이자 그에 등장하는 인물인 우렁각시 이야기를 오마주한 게임으로 ```유저가 우렁각시가 되어 집안을 돌아다니면서 주어진 시간 내에 집안일을 끝내고 나오는 게임```이다. 이때 유저는 어떠한 흔적도 남기면 안되며 집주인이 우렁각시를 눈치챈다면 게임오버이다.
+
+각 행동별로 직접 Vive를 이용해 손을 움직여야 한다. 예를 들어 먼지를 털어내려면 직접 먼지를 빗자루를 들고 털어내야한다.<br>
 
 ### Readme Contents:
 - [How to Play](#how-to-play)
