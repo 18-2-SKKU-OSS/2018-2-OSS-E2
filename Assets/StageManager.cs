@@ -22,7 +22,7 @@ public class StageManager : MonoBehaviour {
 
     //Timer
     float currentTime = 0f;
-    public float limitTime = 300f;
+    public float limitTime = 600f;
     public Text timer;
 
     //Pause
