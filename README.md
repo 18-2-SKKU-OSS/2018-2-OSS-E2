@@ -80,4 +80,4 @@ previous -> renewed
 https://github.com/SKKU-VRAR/URGS
 
 ### For more Information of the Project
-https://18-2-skku-oss.github.io/2018-2-OSS-E2/
+[Github Page](https://18-2-skku-oss.github.io/2018-2-OSS-E2/)
