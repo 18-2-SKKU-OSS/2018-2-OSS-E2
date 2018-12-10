@@ -244,8 +244,11 @@
     <Compile Include="Assets\Scripts\ConditionCheck.cs" />
     <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\GameQuit.cs" />
+    <Compile Include="Assets\Scripts\isClick.cs" />
+    <Compile Include="Assets\Scripts\LightSystem.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
     <Compile Include="Assets\Scripts\ShowPlayerInfo.cs" />
+    <Compile Include="Assets\Scripts\SwitchLight.cs" />
     <Compile Include="Assets\Scripts\UserStatusCtrl.cs" />
     <Compile Include="Assets\StageManager.cs" />
     <Compile Include="Assets\StageMoveManager.cs" />
