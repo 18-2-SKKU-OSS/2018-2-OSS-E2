@@ -18,7 +18,7 @@ public class isClick : MonoBehaviour {
 
     IEnumerator clickWait()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return null;
         isClicked = false;
     }
 
