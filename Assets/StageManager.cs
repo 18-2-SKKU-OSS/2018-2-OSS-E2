@@ -10,7 +10,7 @@ enum StageState
 };
 
 public class StageManager : MonoBehaviour {
-    //Managers
+    //Managers. Edited
     public MissionManager[] MissionManager;
 
     //normal
@@ -38,6 +38,7 @@ public class StageManager : MonoBehaviour {
 
     private void Start()
     {
+	//Need Mission name for each Mission Manager!
         for(int i = 0; i < MissionManager.Length; i++)
             missionName[i].text = MissionManager[i].MissionName.text;
         StartCoroutine("Timer");
@@ -51,7 +52,7 @@ public class StageManager : MonoBehaviour {
         {
             pauseCanvas.SetActive(false);
             StartCoroutine(TimerUI());
-
+		
             numOfClearMisson = 0;
             for(int i = 0; i < MissionManager.Length; i++)
                 if (MissionManager[i].isMissionClear) numOfClearMisson++;
