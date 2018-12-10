@@ -19,7 +19,7 @@ public class LightSystem : MonoBehaviour {
         {
             if (switches[i].getIsClicked())
             {
-                if (lights[i].isTurnOn)
+                if (lights[i].isTurnOn())
                     lights[i].TurnOff();
                 else
                     lights[i].TurnOn();
