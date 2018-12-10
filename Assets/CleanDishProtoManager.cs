@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CleanDishProtoManager : MonoBehaviour {
     static CleanDishProtoManager instance;
-
+    public int NumOfDish = 5;
     public Text score;
 
     private void Start()
@@ -34,6 +34,6 @@ public class CleanDishProtoManager : MonoBehaviour {
 
     private void Update()
     {
-        score.text = CleanableDish.cleanDishNum + "/5";
+        score.text = CleanableDish.cleanDishNum + "/" + NumOfDish;
     }
 }
