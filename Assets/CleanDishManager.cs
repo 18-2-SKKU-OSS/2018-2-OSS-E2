@@ -80,6 +80,14 @@ public class CleanDishManager : MissionManager
     }
 
     //Skill
+    public void speedUp(float mul, float div)
+    {
+	foreach(GameObject dish in dishes){
+	    dish.GetComponent<CleanableDish>().maxWashNum *= mul;
+	    dish.GetComponent<CleanableDish>().maxWashNum /= div;
+	}
+    }
+
     public void SpeedUp1()
     {
         foreach(GameObject dish in dishes)
