@@ -88,10 +88,16 @@ Press stage 1.
 1. Make more stages
 We only provide stage 1. More stages are to be needed.
 
-2. Make more UI
-Funitures displayed are monotonous. So make more designs and also change its location. Also more player designs are needed.
+~~2. Make more UI
+Funitures displayed are monotonous. So make more designs and also change its location. Also more player designs are needed.~~
 
 3. Code refactoring and optimization
+
+4. Adjust sound while interect with object in stage 1
+
+5. Make missions such as garbage pickup and dish washing more dynamically.
+
+6. Modify expansiveness lack skills
 
 ### Version updated(12/10)
 1. UI change
@@ -101,6 +107,7 @@ Funitures displayed are monotonous. So make more designs and also change its loc
 2. code refactoring optimization
 
 3. object added
+
 ### Forked from repository 
 https://github.com/SKKU-VRAR/URGS
 
