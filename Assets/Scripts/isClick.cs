@@ -10,7 +10,7 @@ public class isClick : MonoBehaviour {
         isClicked = false;
     }
 
-    public onClicked()
+    public void onClicked()
     {
         isClicked = true;
         StartCoroutine("clickWait");
