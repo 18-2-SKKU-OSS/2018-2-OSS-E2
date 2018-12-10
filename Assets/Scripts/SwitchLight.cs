@@ -20,4 +20,24 @@ public class SwitchLight : MonoBehaviour {
             gameObject.SetActive(false);
         }
     }
+
+    public void TurnOn()
+    {
+        nowState = State.On;
+        gameObject.SetActive(true);
+    }
+
+    public void TurnOff()
+    {
+        nowState = State.Off;
+        gameObject.SetActive(false);
+    }
+
+    public bool isTurnOn()
+    {
+        if (nowState == State.On)
+            return true;
+        else
+            return false;
+    }
 }
