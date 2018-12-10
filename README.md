@@ -36,14 +36,16 @@ Press stage 1.
 - Turn the tap on by pressing RED Button on the sink. Turn off the tap can be done by pressing RED Button again.
 - Move the washed dish beside the sink.  
    ```
-  <img src="https://user-images.githubusercontent.com/43779571/49585495-d4cc2680-f9a1-11e8-8c62-fbf8c898e40e.jpg"><br>
+  <img src="https://user-images.githubusercontent.com/43779571/49719013-3ee51400-fc9f-11e8-9c65-843dcf4fa09c.png"><br>
 
 2. **trash snack pack**  
 ```
-- pick up all the snack pack on the floor and put them in the trash.  
+- pick up all the snack pack on the floor and put them in the trash.
+- Snack packs are distriuted all over the house.  
 - If the trash is full, press RED Button. It willl empty the trashbasket.
 ```
-<img src="https://user-images.githubusercontent.com/43779571/49585540-ffb67a80-f9a1-11e8-952f-560f79857102.jpg"><br>
+<img src="https://user-images.githubusercontent.com/43779571/49718787-7c956d00-fc9e-11e8-9fd1-abd8aa6d9bf4.png"><br>
+
 
 3. **Sweep with a broom**  
 ```
@@ -54,6 +56,19 @@ Press stage 1.
   <img src="https://user-images.githubusercontent.com/43779571/49585628-3d1b0800-f9a2-11e8-81bd-9bb340f8ddd3.jpg"><br>
 
 #### Other features
+**`Revised Version`**
+<div>
+<img src="https://user-images.githubusercontent.com/43779571/49719092-810e5580-fc9f-11e8-8699-d100eda2c827.png" width="400" height="300"  align="left">
+<img src="https://user-images.githubusercontent.com/43779571/49719094-82d81900-fc9f-11e8-85dd-42d1b74a746a.png" width="400" height="300" border="10" align="center">
+</div>
+<br>
+<div>
+<img src="https://user-images.githubusercontent.com/43779571/49719095-8370af80-fc9f-11e8-826e-d7b6087180bd.png" width="400" height="300" border="5px" align="left">
+<img src="https://user-images.githubusercontent.com/43779571/49719097-84a1dc80-fc9f-11e8-8109-209c3702575a.png" width="400" height="300" border="5px" align="center">
+</div>
+<br>
+
+**`Initial version`**  
 <div>
 <img src="https://user-images.githubusercontent.com/43779571/49585968-33de6b00-f9a3-11e8-8e4f-9b9eab61ffba.jpg" width="400" height="300" border="5px" align="left">
 <img src="https://user-images.githubusercontent.com/43779571/49585984-45c00e00-f9a3-11e8-82df-d81c7489c77a.jpg" width="400" height="300" border="5px" align="center">
@@ -81,15 +96,7 @@ Funitures displayed are monotonous. So make more designs and also change its loc
 ### Version updated(12/10)
 1. UI change
 - overall view
-
-**Previous**
-<div>
-&nbsp;<img src="https://user-images.githubusercontent.com/43779571/49585495-d4cc2680-f9a1-11e8-8c62-fbf8c898e40e.jpg" width="400" height="300" border="10" aligh="left">
-<img src="https://user-images.githubusercontent.com/43779571/49585540-ffb67a80-f9a1-11e8-952f-560f79857102.jpg" width="400" height="300" border="10" aligh="center">
-</div>
-
-**Updated**  
-&nbsp;<img src="https://user-images.githubusercontent.com/43779571/49717345-20c8e500-fc9a-11e8-855b-1bd8cfc1519e.png" width="400" height="300">  
+&nbsp;<img src="https://user-images.githubusercontent.com/43779571/49718605-f4af6300-fc9d-11e8-8622-f9492091d61a.png" width="800" height="700">
 
 2. code refactoring optimization
 
