@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
+//Make for scalable code. 
 public abstract class MissionManager : MonoBehaviour {
     public bool isMissionClear;
     public Text MissionName;
