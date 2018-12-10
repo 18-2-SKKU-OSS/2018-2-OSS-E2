@@ -14,9 +14,11 @@
 ### How to Play
 &nbsp;<img src="https://user-images.githubusercontent.com/43779571/49585335-671ffa80-f9a1-11e8-9d55-1deea12b5b5b.jpg" width="750" height="550">
 
-> Press start button.<br>
-> Press stage button.<br>
-> Press stage 1.
+```
+Press start button.
+Press stage button.
+Press stage 1.
+```
 
 #### Controller operation method in the game
 &nbsp;<img src="https://survios.com/rawdata/content/themes/rawdata/assets/img/vive-userguide-white@2x.png" width="750" height="450">
@@ -29,20 +31,26 @@
 #### Stage 1
 &nbsp;<img src="https://user-images.githubusercontent.com/43779571/49585428-abab9600-f9a1-11e8-8b05-3a44adb47244.jpg" width="400" height="300"><br>
 1. **dish-washing**
-   - pick up all the dishes on the table and put them in sink.
-   - Turn the tap on by pressing RED Button on the sink. Turn off the tap can be done by pressing RED Button again.
-   - Move the washed dish beside the sink.  
+```
+- pick up all the dishes on the table and put them in sink.
+- Turn the tap on by pressing RED Button on the sink. Turn off the tap can be done by pressing RED Button again.
+- Move the washed dish beside the sink.  
+   ```
   <img src="https://user-images.githubusercontent.com/43779571/49585495-d4cc2680-f9a1-11e8-8c62-fbf8c898e40e.jpg"><br>
 
 2. **trash snack pack**  
-     - pick up all the snack pack on the floor and put them in the trash.  
-     - If the trash is full, press RED Button. It willl empty the trashbasket.
-  <img src="https://user-images.githubusercontent.com/43779571/49585540-ffb67a80-f9a1-11e8-952f-560f79857102.jpg"><br>
+```
+- pick up all the snack pack on the floor and put them in the trash.  
+- If the trash is full, press RED Button. It willl empty the trashbasket.
+```
+<img src="https://user-images.githubusercontent.com/43779571/49585540-ffb67a80-f9a1-11e8-952f-560f79857102.jpg"><br>
 
 3. **Sweep with a broom**  
-     - clean all the dust on the floor and sofa.  
-     - Also clean a web on the wall.  
-     - By holding a broom stick and sweeping on the dust and web will work.
+```
+- clean all the dust on the floor and sofa.  
+- Also clean a web on the wall.  
+- By holding a broom stick and sweeping on the dust and web will work.
+```
   <img src="https://user-images.githubusercontent.com/43779571/49585628-3d1b0800-f9a2-11e8-81bd-9bb340f8ddd3.jpg"><br>
 
 #### Other features
@@ -60,7 +68,7 @@
 <img src="https://user-images.githubusercontent.com/43779571/49587918-a9990580-f9a8-11e8-8b33-e7165960db29.jpg" width="400" height="300" border="10" align="left">
 <img src="https://user-images.githubusercontent.com/43779571/49587936-bae21200-f9a8-11e8-9566-2e99da6a143a.jpg" width="400" height="300" align="center">
 </div>
-
+   
 ### How to Contribute
 1. Make more stages
 We only provide stage 1. More stages are to be needed.
@@ -72,7 +80,17 @@ Funitures displayed are monotonous. So make more designs and also change its loc
 
 ### Version updated(12/10)
 1. UI change
-previous -> renewed
+- overall view
+
+**Previous**
+<div>
+&nbsp;<img src="https://user-images.githubusercontent.com/43779571/49585495-d4cc2680-f9a1-11e8-8c62-fbf8c898e40e.jpg" width="400" height="300" border="10" aligh="left">
+<img src="https://user-images.githubusercontent.com/43779571/49585540-ffb67a80-f9a1-11e8-952f-560f79857102.jpg" width="400" height="300" border="10" aligh="center">
+</div>
+
+**Updated**  
+&nbsp;<img src="https://user-images.githubusercontent.com/43779571/49717345-20c8e500-fc9a-11e8-855b-1bd8cfc1519e.png" width="400" height="300">  
+
 2. code refactoring optimization
 
 3. object added
