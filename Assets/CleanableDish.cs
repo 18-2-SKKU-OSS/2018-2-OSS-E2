@@ -29,8 +29,8 @@ public class CleanableDish : MonoBehaviour {
         {
             CleanDishManager.numOfOrganizedDish++;
         }
-
-        if (nowWashNum >= maxWashNum)
+	//When washing dish
+        if (nowWashNum >= maxWashNum) 
             return;
         if (other.tag == "Water")
             nowWashNum++;
@@ -65,6 +65,7 @@ public class CleanableDish : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
+	//When felt on the floor
         if (collision.gameObject.tag == "Floor")
         {
             ToBeDirty();
