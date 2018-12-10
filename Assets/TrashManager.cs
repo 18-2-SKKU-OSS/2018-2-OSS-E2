@@ -34,6 +34,7 @@ public class TrashManager : MissionManager{
         if (autoEmpty && Input.GetKey(KeyCode.Alpha2))//자동비우기 속업
         {
             Debug.Log("skill2 activate");
+	    autoEmpty = true;
             emptySpeed = 1;
         }
         if (autoEmpty && Input.GetKey(KeyCode.Alpha3))//쓰레기 무조건 0
