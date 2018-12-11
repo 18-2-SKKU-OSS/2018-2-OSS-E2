@@ -34,7 +34,15 @@ public class CleanableDish : MonoBehaviour {
         if (nowWashNum >= maxWashNum) 
             return;
         if (other.tag == "Water")
+	{
             nowWashNum++;
+	    if(Washing == 1) return;
+	    else
+	    {
+		Washing = 1;
+		WashingNum++;
+	    }
+	}
     }
 
     private void OnTriggerExit(Collider other)
@@ -45,8 +53,15 @@ public class CleanableDish : MonoBehaviour {
         }
 
         if (other.tag == "Water")
+	{
             if (nowWashNum >= maxWashNum && !isClean)
                 ToBeClean();
+	    if(Washing == 0) return;
+	    else
+	    {
+		Washing = 0;
+		WashingNum--;
+	}
     }
 
     private void OnTriggerStay(Collider other)
