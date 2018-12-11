@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class CleanableDish : MonoBehaviour {
     //normal
-    int nowWashNum = 0;
+    float nowWashNum = 0;
     public int maxWashNum = 900;
     Material orignDish;
     public Material dirtyDish;
 
     //for Manage
     public static int cleanDishNum = 0;
+    public static int WashingNum = 0;
     bool isClean = false;
 
     //for TriggerStay
