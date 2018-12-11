@@ -84,12 +84,12 @@ Press stage 1.
 <img src="https://user-images.githubusercontent.com/43779571/49587936-bae21200-f9a8-11e8-9566-2e99da6a143a.jpg" width="400" height="300" align="center">
 </div>
    
-### How to Contribute
+### How to Contribute(Nov 13 기준)
 1. Make more stages
 We only provide stage 1. More stages are to be needed.
 
-~~2. Make more UI
-Funitures displayed are monotonous. So make more designs and also change its location. Also more player designs are needed.~~
+2. Make more UI
+Funitures displayed are monotonous. So make more designs and also change its location. Also more player designs are needed.
 
 3. Code refactoring and optimization
 
