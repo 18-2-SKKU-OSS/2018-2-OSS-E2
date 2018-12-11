@@ -71,7 +71,7 @@ public class CleanableDish : MonoBehaviour {
             accTime += Time.deltaTime;
             if (accTime > delay)
             {
-                nowWashNum++;
+                nowWashNum += (float)(1 / System.Math.Pow(1.2, (float)WashingNum));
                 accTime = 0;
             }
             if (nowWashNum >= maxWashNum && !isClean)
